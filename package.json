@@ -1,0 +1,22 @@
+{
+  "name": "poll",
+  "version": "1.0.0",
+  "description": "Poll Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealSocius/poll.git"
+  },
+  "keywords": [
+    "Poll"
+  ],
+  "author": "Atos Dual Students 2021",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RealSocius/poll/issues"
+  },
+  "homepage": "https://github.com/RealSocius/poll#readme"
+}
