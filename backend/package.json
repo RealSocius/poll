@@ -4,7 +4,7 @@
   "description": "Poll Website",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/RealSocius/poll/issues"
   },
-  "homepage": "https://github.com/RealSocius/poll#readme"
+  "homepage": "https://github.com/RealSocius/poll#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sanitize": "^2.1.0"
+  }
 }

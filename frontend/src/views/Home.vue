@@ -1,18 +1,12 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <div class="home"><PollCreator /></div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import PollCreator from "../components/PollCreator";
 export default {
-  name: "Home",
   components: {
-    HelloWorld,
+    PollCreator,
   },
 };
 </script>
