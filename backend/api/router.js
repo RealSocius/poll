@@ -73,6 +73,7 @@ module.exports.route = function (expressApp, dbConnection) {
 
   expressApp.post("/api/v1/createpoll", (req, res) => {
     let body = req.body;
+    // FIXME: SyntaxError: Unexpected token o in JSON at position 1
     console.log("RAW DATA:\n", body, "\n");
     console.log("PARSED DATA:\n", JSON.parse(body), "\n\n");
     // Check so that nobody sends some evil JSON
